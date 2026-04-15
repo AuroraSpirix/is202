@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header h1{
+    margin :0;
+}
+
+
+.common{
+    text-align: left;
+    background-color: lightseagreen;
+
+}
+
+
+nav a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    background-color: lightskyblue;
+}
+
+.top-ui-wrapper {
+    background-color: white;
+    margin-top: 0;
+    justify-content: flex-start;
+    background-color: #3498db;
+    padding-left: 20px;  
+    padding-right: 50px;    
+    color : white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ui{
+    background-color: lightseagreen;
+    color : white;
+    padding-left: 20px;
+}
+
+
+.flaglist li img {
+    display: block !important; /* !important forces this to win over Bootstrap */
+    margin: 10px auto 0 auto;  /* Adds space on top and centers it */
+}
+
+.flaglist ol {
+  display: flex;       /* This turns on the magic horizontal layout */
+  flex-direction: row; /* Lines them up horizontally */
+  flex-wrap: wrap;     /* Allows items to move to a second row if the screen is too narrow */
+  gap: 8px;           /* Adds space between the items so they aren't squished */
+  list-style-position: inside; /* Keeps the numbers near the text */
+  padding: 0;
+}
+
+.flaglist li {
+  margin-left: 20px;
+    margin-bottom: 0;    /* Remove that bottom margin we added earlier */
+  text-align: center;  /* Centers the text over the flags */
+}
+
+.youtube{
+    margin-left: 20px;
+}
+
+.youtubebg{
+    padding-top: 25px;
+    background-color: pink;
+    padding-bottom: 20px;
+}
+
+.tableauViz {
+    width: 1400px !important; 
+    height: 827px !important;
+    transform: scale(0.5);
+    transform-origin: top left;
+}
+
+/* 2. Shrink the container to match the new half-size */
+/* 1400 * 0.5 = 700px wide | 827 * 0.5 = 413.5px tall */
+.tableauPlaceholder {
+    width: 700px !important;
+    height: 414px !important;
+    overflow: hidden; /* Prevents ghost scrollbars */
+    border: 1px solid #ccc; /* Optional: adds a frame since it's smaller now */
+
+}
+
+.tabl{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.backtotop{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
